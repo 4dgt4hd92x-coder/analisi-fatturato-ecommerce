@@ -17,8 +17,3 @@ L'analisi ha rivelato che la categoria **Elettronica** domina il mercato, rappre
 - Python 3
 - Pandas (Manipolazione dati)
 - Matplotlib (Visualizzazione)
-
-## Come eseguire il progetto
-1. La repository: `git clone https://github.com/tuo-username/analisi-fatturato-ecommerce.git`
-2. Installa le librerie: `pip install pandas matplotlib`
-3. Esegui lo script: `python Pulizia_dati.py`
