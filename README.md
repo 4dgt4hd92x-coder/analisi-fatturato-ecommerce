@@ -1,4 +1,4 @@
-Analisi Fatturato E-commerce 📊
+# ANALISI FATTURATO E-COMMERCE 📊
 
 Progetto Python per l'estrazione e la pulizia di metriche finanziarie da dati grezzi.
 
