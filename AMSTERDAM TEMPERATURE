@@ -15,13 +15,5 @@ Attraverso l'aggregazione dei dati per ora (0-23), il sistema permette di isolar
 
 ## 🛠️ Tecnologie utilizzate
 - **Python 3.x**
-- **Pandas**: Manipolazione e analisi dei dati.
-- **Requests**: Gestione delle chiamate HTTP API.
-- **Seaborn & Matplotlib**: Data visualization.
-- **Numpy**: Operazioni matematiche sui vettori.
-
-## ⚙️ Installazione ed Utilizzo
-
-1. Clona la repository:
-pip install -r requirements.txt
-python database.py
+- **Pandas, Numpy, Requests, Seaborn, Matplotlib**: Stack per Data Science.
+- **VENV (Virtual Environment)**: Utilizzato per la gestione di un ambiente di sviluppo isolato, garantendo la riproducibilità del progetto e la gestione pulita delle dipendenze.
