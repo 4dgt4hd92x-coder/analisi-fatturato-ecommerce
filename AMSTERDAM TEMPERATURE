@@ -1,0 +1,27 @@
+# 🌦️ Amsterdam Weather Analysis Pipeline
+
+Questo progetto è una pipeline di analisi dati end-to-end scritta in Python. Il codice recupera dati meteorologici in tempo reale tramite API, li elabora con Pandas e genera visualizzazioni statistiche per identificare le fasce orarie più calde nella città di Amsterdam.
+
+## 🚀 Funzionalità
+
+- **Data Ingestion**: Recupero automatico dei dati di temperatura oraria tramite l'API di [Open-Meteo](https://open-meteo.com/).
+- **Data Processing**: Pulizia e strutturazione dei dati JSON in un DataFrame Pandas.
+- **Feature Engineering**: Trasformazione delle stringhe temporali in oggetti `datetime` per estrarre insight sulle fasce orarie.
+- **Data Visualization**: Creazione di grafici statistici (Distribution Plot e Line Plot) utilizzando Seaborn e Matplotlib.
+
+## 📊 Analisi delle Fasce Orarie
+L'obiettivo principale del progetto è rispondere alla domanda: *"In quali momenti della giornata si registrano i picchi di temperatura?"*. 
+Attraverso l'aggregazione dei dati per ora (0-23), il sistema permette di isolare i trend termici medi e identificare i periodi di massimo calore giornaliero.
+
+## 🛠️ Tecnologie utilizzate
+- **Python 3.x**
+- **Pandas**: Manipolazione e analisi dei dati.
+- **Requests**: Gestione delle chiamate HTTP API.
+- **Seaborn & Matplotlib**: Data visualization.
+- **Numpy**: Operazioni matematiche sui vettori.
+
+## ⚙️ Installazione ed Utilizzo
+
+1. Clona la repository:
+pip install -r requirements.txt
+python database.py
